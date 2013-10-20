@@ -2,7 +2,7 @@ set :application, "kathguitars"
 set :scm, :git
 set :deploy_via, :remote_cache
 set :git_enable_submodules, 1
-set :repository, "git@github.com:jkath/KathGuitars.git"
+set :repository, "git@github.com:jkath/KathGuitarsSantaFe.git"
 set :domain,     "kathguitars.com"
 
 set :user,     'deploy'
