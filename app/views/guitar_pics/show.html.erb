@@ -1,0 +1,28 @@
+<p>
+  <b>Title:</b>
+  <%=h @guitar_pic.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @guitar_pic.description %>
+</p>
+
+<p>
+  <b>Photo file name:</b>
+  <%=h @guitar_pic.photo_file_name %>
+</p>
+
+<p>
+  <b>Photo content type:</b>
+  <%=h @guitar_pic.photo_content_type %>
+</p>
+
+<p>
+  <b>Photo file size:</b>
+  <%=h @guitar_pic.photo_file_size %>
+</p>
+
+
+<%= link_to 'Edit', edit_guitar_pic_path(@guitar_pic) %> |
+<%= link_to 'Back', guitar_pics_path %>

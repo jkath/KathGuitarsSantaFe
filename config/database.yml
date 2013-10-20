@@ -1,0 +1,23 @@
+login: &login
+  adapter: mysql
+  host: localhost
+  encoding: utf8
+
+development:
+  database: kathguitars_dev
+  username: root
+  password: maritza
+  socket: /tmp/mysql.sock
+  <<: *login
+
+test:
+  database: kathguitars_test
+  username: root
+  password: maritza
+  <<: *login
+
+production:
+  database: kathguitars_prod
+  username: root
+  password: maritza
+  <<: *login

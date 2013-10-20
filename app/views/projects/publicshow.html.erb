@@ -1,0 +1,35 @@
+<script>
+function doGuitarPopup(url) { 
+	window.open(url, 'Kath Guitars','toolbar=1,scrollbars=1,height=600,width=600');
+}
+</script>
+<br><br>
+<a href="currprojects">Back To Project List</a>
+<br>
+<p>
+  <h3>Name: <%=h @project.name %></h3>
+</p>
+
+<p>
+  <h3>Date complete: <%=h @project.date_complete %></h3>
+</p>
+
+<p>
+  <h3>Hours to build: <%=h @project.hours_to_build %></h3>
+</p>
+
+<p>
+  <h3>Specs: <%=h @project.specs %></h3>
+</p>
+
+<p>
+  <h3>Client location: <%=h @project.client_location %></h3>
+</p>
+
+<u><h1>Photos</h1></u>
+<% @project_pics.each do |project_pic| %>
+	<a href="javascript:doGuitarPopup('/showpic?id=<%= project_pic.id %>')"><%= image_tag project_pic.photo.url(:thumb) %></a> &nbsp; &nbsp; &nbsp;
+<% end %>
+
+<br><br>
+<a href="currprojects">Back To Project List</a>

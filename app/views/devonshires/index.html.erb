@@ -1,0 +1,29 @@
+<h1>Devonshire Photos</h1>
+
+<%= link_to 'New devonshire', new_devonshire_path %>
+<br />
+
+<table width="100%">
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Photo file name</th>
+    <th>Photo content type</th>
+    <th>Photo file size</th>
+  </tr>
+
+<% @devonshires.each do |devonshire| %>
+  <tr>
+    <td><%=h devonshire.title %></td>
+    <td><%=h devonshire.description %></td>
+    <td><%=h devonshire.photo_file_name %></td>
+    <td><%= link_to 'Show', devonshire %></td>
+    <td><%= link_to 'Edit', edit_devonshire_path(devonshire) %></td>
+    <td><%= link_to 'Destroy', devonshire, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New devonshire', new_devonshire_path %>

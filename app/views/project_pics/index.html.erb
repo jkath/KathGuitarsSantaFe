@@ -1,0 +1,30 @@
+<h1>Listing project_pics</h1>
+
+<table>
+  <tr>
+    <th>Project</th>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Photo file name</th>
+    <th>Photo content type</th>
+    <th>Photo file size</th>
+  </tr>
+
+<% @project_pics.each do |project_pic| %>
+  <tr>
+    <td><%=h project_pic.project_id %></td>
+    <td><%=h project_pic.name %></td>
+    <td><%=h project_pic.description %></td>
+    <td><%=h project_pic.photo_file_name %></td>
+    <td><%=h project_pic.photo_content_type %></td>
+    <td><%=h project_pic.photo_file_size %></td>
+    <td><%= link_to 'Show', project_pic %></td>
+    <td><%= link_to 'Edit', edit_project_pic_path(project_pic) %></td>
+    <td><%= link_to 'Destroy', project_pic, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New project_pic', new_project_pic_path %>

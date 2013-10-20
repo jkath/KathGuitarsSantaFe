@@ -1,0 +1,2 @@
+rake -f /var/www/html/rails/kathguitars/current/Rakefile admin:crawl_pages URL=http://www.lalunaranchwear.com SITEMAP=true
+rake -f /var/www/html/rails/kathguitars/current/Rakefile admin:crawl_pages URL=http://www.kathguitars.com SITEMAP=true

@@ -1,0 +1,120 @@
+body {
+	background-image: url(/ver2images/planks.jpg); background-repeat: repeat; 
+	/* background-color: #000000; */
+	color: white;
+}
+
+#blocktext{
+	text-align: justify;
+	margin: 0, 10px, 20px, 10px;
+}
+
+#centering-home-div {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	height:1000px; 
+}
+#centering-nonhome-div {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	/* border: brown solid 2px; */
+	/* min-height: 800px; */
+	height:80px; 
+}
+#centering-gallery-div {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1050px;
+	border: brown solid 2px;
+	/* min-height: 800px; */
+	height:1300px; 
+}
+.menuitem-about {  
+    position: absolute;  
+    top: 325px;  
+    left: 627px;  
+}
+.menuitem-contact {  
+    position: absolute;  
+    top: 425px;  
+    left: 650px;  
+}
+.menuitem-archtops {  
+    position: absolute;  
+    top: 295px;  
+    left: 468px;  
+}
+.menuitem-flattops {  
+    position: absolute;  
+    top: 395px;  
+    left: 510px;  
+}
+.menuitem-semihollow {  
+    position: absolute;  
+    top: 495px;  
+    left: 530px;  
+}
+.menuitem-headstock {  
+    position: absolute;  
+    top: 513px;  
+    left: 900px;  
+}
+#homepagecontent {
+	/* background: url(/images/page_bg.jpg) repeat; */
+	width: 790px;
+	height:1200px;
+	padding-left: 5px;
+	padding-right: 5px;	
+	background-color: #4F1706;
+}
+
+#pagecontent {
+	/* background: url(/images/page_bg.jpg) repeat; */
+	width: 790px;
+	height: 2300px;
+	padding-left: 5px;
+	padding-right: 5px;	
+	background-color: #F5F5F5;
+}
+#shortpagecontent {
+	/* background: url(/images/page_bg.jpg) repeat; */
+	width: 790px;
+	height: 900px;
+	padding-left: 5px;
+	padding-right: 5px;	
+	color: #556B2F;
+	background-color: #F5F5F5;
+}
+#gallerypagecontent{
+	/* background: url(/images/page_bg.jpg) repeat; */
+	width: 1040px;
+	height: 1300px;
+	padding-left: 5px;
+	padding-right: 5px;	
+	background-color: #4F1706;
+}
+
+#devonshiredescription{
+	text-align: justify;
+}
+
+a {
+  color: #556B2F;
+  text-decoration: underline;
+}
+a:hover {
+  color: yellow;
+}
+
+#footer {
+   border-top: #FF6347 solid 2px;
+	margin-top: auto;
+	margin-left: auto;
+  	margin-right: auto;
+	background-color: #4F1706;
+	border: brown solid 2px;
+	width: 796px;
+	height: 40px;
+}

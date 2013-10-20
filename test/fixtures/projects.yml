@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  date_complete: 2011-11-25
+  hours_to_build: 
+  specs: MyText
+  client_location: MyString
+
+two:
+  name: MyString
+  date_complete: 2011-11-25
+  hours_to_build: 
+  specs: MyText
+  client_location: MyString

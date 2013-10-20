@@ -1,0 +1,50 @@
+<p>
+  <b>Name:</b>
+  <%=h @project.name %>
+</p>
+
+<p>
+  <b>Date complete:</b>
+  <%=h @project.date_complete %>
+</p>
+
+<p>
+  <b>Hours to build:</b>
+  <%=h @project.hours_to_build %>
+</p>
+
+<p>
+  <b>Specs:</b>
+  <%=h @project.specs %>
+</p>
+
+<p>
+  <b>Client location:</b>
+  <%=h @project.client_location %>
+</p>
+
+<h2>Photos</h2>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Photo</th>
+
+  </tr>
+
+<% @project_pics.each do |project_pic| %>
+  <tr>
+    <td><%=h project_pic.name %></td>
+    <td><%=h project_pic.description %></td>
+	<td><%= image_tag project_pic.photo.url(:thumb) %></td>
+
+    <td><%= link_to 'Show', project_pic %></td>
+    <td><%= link_to 'Edit', edit_project_pic_path(project_pic) %></td>
+    <td><%= link_to 'Destroy', project_pic, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+<%= link_to 'New project_pic', new_project_pic_path %><br><br>
+
+<%= link_to 'Edit', edit_project_path(@project) %> |
+<%= link_to 'Back', projects_path %>

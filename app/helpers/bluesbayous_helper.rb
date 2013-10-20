@@ -1,0 +1,2 @@
+module BluesbayousHelper
+end
