@@ -10,6 +10,7 @@ body {
 }
 
 #centering-home-div {
+	position: relative;
 	background-image: url('../ver2images/homepageFinal.jpg');
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -36,29 +37,29 @@ body {
 	height:1300px; 
 }
 .menuitem-about {  
-    position: absolute;
+    position: relative;
     top: 325px;  
-    left: 627px;  
+    left: 307px;  
 }
 .menuitem-contact {  
-    position: absolute;
-    top: 425px;  
-    left: 650px;  
+    position: relative;
+    top: 345px;  
+    left: 330px;  
 }
 .menuitem-archtops {  
-    position: absolute;  
-    top: 295px;  
-    left: 468px;  
+    position: relative;  
+    top: 150px;  
+    left: 168px;  
 }
 .menuitem-flattops {  
-    position: absolute;  
-    top: 395px;  
-    left: 510px;  
+    position: relative;  
+    top: 175px;  
+    left: 190px;  
 }
 .menuitem-semihollow {  
-    position: absolute;  
-    top: 495px;  
-    left: 530px;  
+    position: relative;  
+    top: 200px;  
+    left: 210px;  
 }
 .menuitem-headstock {  
     position: absolute;  
