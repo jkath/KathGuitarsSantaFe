@@ -10,10 +10,14 @@ body {
 }
 
 #centering-home-div {
+	background-image: url('../ver2images/homepageFinal.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
 	margin-left: auto;
 	margin-right: auto;
 	width: 1000px;
 	height:1000px; 
+	background
 }
 #centering-nonhome-div {
 	margin-left: auto;
@@ -32,12 +36,12 @@ body {
 	height:1300px; 
 }
 .menuitem-about {  
-    position: absolute;  
+    position: absolute;
     top: 325px;  
     left: 627px;  
 }
 .menuitem-contact {  
-    position: absolute;  
+    position: absolute;
     top: 425px;  
     left: 650px;  
 }
