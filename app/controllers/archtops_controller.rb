@@ -1,2 +1,0 @@
-class ArchtopsController < ApplicationController
-end

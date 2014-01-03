@@ -1,6 +1,6 @@
 body {
-	background-image: url(/ver2images/planks.jpg); background-repeat: repeat; 
-	/* background-color: #000000; */
+	background-image: url(/images/planks.jpg); background-repeat: repeat;
+	background-color: #000000;
 	color: white;
 }
 
@@ -11,31 +11,31 @@ body {
 
 #centering-home-div {
 	position: relative;
-	background-image: url('../ver2images/homepageFinal.jpg');
 	background-size: 100%;
-	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	width: 1000px;
+	height:800px; 
+
+}
+#centering-nonhome-div {
+	background-image: url('/images/leather.jpg');
 	margin-left: auto;
 	margin-right: auto;
 	width: 1000px;
-	height:1000px; 
-	background
-}
-#centering-nonhome-div {
-	margin-left: auto;
-	margin-right: auto;
-	width: 800px;
 	/* border: brown solid 2px; */
 	/* min-height: 800px; */
 	height:80px; 
 }
-#centering-gallery-div {
-	margin-left: auto;
-	margin-right: auto;
-	width: 1050px;
-	border: brown solid 2px;
-	/* min-height: 800px; */
-	height:1300px; 
+#slogan {
+	float: right;
+	padding-top: 10px;
+	padding-right: 10px;
+	font-style:italic;
+	height: 20px;
 }
+
 .menuitem-about {  
     position: relative;
     top: 325px;  
@@ -67,25 +67,45 @@ body {
     left: 900px;  
 }
 #homepagecontent {
-	/* background: url(/images/page_bg.jpg) repeat; */
-	width: 790px;
-	height:1200px;
-	padding-left: 5px;
-	padding-right: 5px;	
+	width: 1000px;
+	height: 515px;	
 	background-color: #4F1706;
 }
 
-#pagecontent {
-	/* background: url(/images/page_bg.jpg) repeat; */
-	width: 790px;
-	height: 2300px;
+#homepagesidemenu {
+	float: left;
+	background: url(/images/leather.jpg) repeat;
+	width: 100px;
+	height: 470px;
 	padding-left: 5px;
+	padding-right: 5px;	
+	padding-top: 50px;
+	background-color: #F5F5F5;
+}
+
+#sidemenu {
+	float: left;
+	background: url(/images/leather.jpg) repeat;
+	width: 100px;
+	height: 1700px;
+	padding-left: 5px;
+	padding-right: 5px;	
+	padding-top: 100px;
+	background-color: #F5F5F5;
+}
+
+#pagecontent {
+	float: left;
+	background: url(/images/leather.jpg) repeat;
+	width: 870px;
+	height: 1800px;
+	padding-left: 15px;
 	padding-right: 5px;	
 	background-color: #F5F5F5;
 }
 #shortpagecontent {
 	/* background: url(/images/page_bg.jpg) repeat; */
-	width: 790px;
+	width: 1000px;
 	height: 900px;
 	padding-left: 5px;
 	padding-right: 5px;	
@@ -106,8 +126,9 @@ body {
 }
 
 a {
-  color: #556B2F;
-  text-decoration: underline;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight:bold;
 }
 a:hover {
   color: yellow;
